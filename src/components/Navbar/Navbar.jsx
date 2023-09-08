@@ -1,5 +1,5 @@
 import React from 'react';
-import CartWidget from '../CartWidget/CartWidget'; // Ajusta la ruta de importación
+import CartWidget from '../CartWidget/CartWidget';
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
         <li>Producto 2</li>
         <li>Producto 3</li>
       </ul>
-      <CartWidget /> {/* Agrega el componente CartWidget aquí */}
+      <CartWidget /> {}
     </nav>
   );
 };

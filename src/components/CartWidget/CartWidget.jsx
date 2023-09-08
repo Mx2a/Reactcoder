@@ -1,12 +1,12 @@
 import React from 'react';
 
 const CartWidget = () => {
-  // Número hardcodeado para la cantidad de elementos en el carrito (puedes cambiarlo)
+
   const itemCount = 5;
 
   return (
     <div>
-      <i className="fas fa-shopping-cart"></i>
+      <i className="carrito-compras"></i>
       <span>{itemCount}</span>
     </div>
   );
