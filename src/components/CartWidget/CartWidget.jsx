@@ -1,7 +1,6 @@
 import React from 'react';
 
 const CartWidget = () => {
-
   const itemCount = 5;
 
   return (
